@@ -17,8 +17,7 @@ interested, please don't hesitate to reach out.
 
 # MMM-page-indicator
 
-![Example of MMM-page-indicator](./image-1.png)
-![Example of MMM-page-indicator](./image-2.png)
+![Example of MMM-page-indicator](screenshot.png)
 
 This [MagicMirror²][mm] Module is designed to indicate what "page" you are looking at. This module is designed to be an indicator only. By itself, it only offers a basic way to change the page, by clicking on the circle indicative of the page you wish to change to.
 
@@ -81,8 +80,9 @@ Option|Description
 
 ## Styling
 
-- With the newly added classes, `active-page` and `page-${i}` styling of the indicator is now easier.
-- Below are some styling examples
+With the newly added classes, `active-page` and `page-${i}` styling of the indicator is now easier.
+
+Below are some styling examples.
 
 In the below example you can assign a different icon/indicator per page indicator. Below example sets the page 3 indicator to a star.
 
@@ -93,6 +93,7 @@ In the below example you can assign a different icon/indicator per page indicato
     animation: blink 1s infinite;
 }
 ```
+
 In the below example you can set animation effects to the current active-page's indicator.
 
 ```css
@@ -100,6 +101,10 @@ In the below example you can set animation effects to the current active-page's 
     animation: pulse 1.2s ease-in-out infinite;
 }
 ```
+
+### Result
+
+![Screencast](screencast_styling.gif)
 
 ## FAQ
 
